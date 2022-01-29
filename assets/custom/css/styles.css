@@ -10,8 +10,20 @@
     text-align: center;
 }
 
+.cid-sVehLYk24m iframe {
+    height: 27em;
+}
+
+/* Extra small devices (phones, tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .cid-sVehLYk24m .dragArea h1 {
+        padding-top: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .cid-sFGNHRkFsi .second-row {
-        margin-top: 1em
+        margin-top: 1em;
     }
 }
