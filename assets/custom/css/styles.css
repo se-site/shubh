@@ -6,6 +6,10 @@
     width: auto;
 }
 
+.cid-sFGMsvHDIa .map-icon img {
+    height: 3em;
+}
+
 .cid-sFGNHRkFsi .mbr-section-title {
     text-align: center;
 }
@@ -19,11 +23,17 @@
     .cid-sVehLYk24m .dragArea h1 {
         padding-top: 3rem;
     }
+    .visible-desktop-only {
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .cid-sFGNHRkFsi .second-row {
         margin-top: 1em;
+    }
+    .visible-mobile-only {
+        display: none;
     }
 }
