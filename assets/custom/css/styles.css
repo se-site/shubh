@@ -18,6 +18,15 @@
     height: 27em;
 }
 
+.whatsapp-cta {
+    position: fixed;
+    height: 3em;
+    width: 3em;
+    right: 0;
+    bottom: 0;
+    margin: 1em;
+}
+
 /* Extra small devices (phones, tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
     .cid-sVehLYk24m .dragArea h1 {
@@ -34,6 +43,9 @@
         margin-top: 1em;
     }
     .visible-mobile-only {
+        display: none;
+    }
+    .whatsapp-cta {
         display: none;
     }
 }
