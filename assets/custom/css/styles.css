@@ -2,6 +2,14 @@
     background-image: url(../img/hero.jpg);
 }
 
+.cid-sFGMsvHDIa .navbar {
+    position: fixed!important;
+}
+
+.cid-sFGMsvHDIa .solid {
+    background: rgba(95, 99, 102, 1);
+}
+
 .cid-sFGMfPD7iT .logo-img {
     width: auto;
 }
