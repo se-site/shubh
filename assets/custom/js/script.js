@@ -13,7 +13,7 @@ $(document).ready(function () {
     });
     // Portfolio Generator
     var portfolioConfig = {
-        bedroom: 3,
+        bedroom: 4,
         drawingroom: 4,
         office: 5,
         shop: 6,
